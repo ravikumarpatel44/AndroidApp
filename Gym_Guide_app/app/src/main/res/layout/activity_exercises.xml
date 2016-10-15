@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.ravikumarpatel.gym_guide_app.Exercises"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="fill_parent"
+                    android:layout_height="120dp"
+                    android:id="@+id/card_view1"
+                    card_view:cardCornerRadius="1dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:id="@+id/list1">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/abdominal"
+
+                            />
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="120dp"
+                            android:text="ABDOMINAL"
+                            android:gravity="center"
+                            android:textSize="20dp"
+                            android:textColor="#000"
+                            />
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="fill_parent"
+                    android:layout_height="120dp"
+                    android:id="@+id/card_view2"
+                    android:layout_below="@+id/card_view1"
+                    android:layout_marginTop="1dp"
+                    card_view:cardCornerRadius="1dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:id="@+id/list2">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/back"
+
+                            />
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="120dp"
+                            android:text="BACK"
+                            android:gravity="center"
+                            android:textSize="20dp"
+                            android:textColor="#000"
+                            />
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="fill_parent"
+                    android:layout_height="120dp"
+                    android:id="@+id/card_view3"
+                    android:layout_below="@+id/card_view2"
+                    android:layout_marginTop="1dp"
+                    card_view:cardCornerRadius="1dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:id="@+id/list3">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/biceps"
+
+                            />
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="120dp"
+                            android:text="BICEPS"
+                            android:gravity="center"
+                            android:textSize="20dp"
+                            android:textColor="#000"
+                            />
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="fill_parent"
+                    android:layout_height="120dp"
+                    android:id="@+id/card_view4"
+                    android:layout_below="@+id/card_view3"
+                    android:layout_marginTop="1dp"
+                    card_view:cardCornerRadius="1dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:id="@+id/list4">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/chest"
+
+                            />
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="120dp"
+                            android:text="CHEST"
+                            android:gravity="center"
+                            android:textSize="20dp"
+                            android:textColor="#000"
+                            />
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="fill_parent"
+                    android:layout_height="120dp"
+                    android:id="@+id/card_view5"
+                    android:layout_below="@+id/card_view4"
+                    android:layout_marginTop="1dp"
+                    card_view:cardCornerRadius="1dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:id="@+id/list5">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/legs"
+
+                            />
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="120dp"
+                            android:text="LEGS"
+                            android:gravity="center"
+                            android:textSize="20dp"
+                            android:textColor="#000"
+                            />
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="fill_parent"
+                    android:layout_height="120dp"
+                    android:id="@+id/card_view6"
+                    android:layout_below="@+id/card_view5"
+                    android:layout_marginTop="1dp"
+                    card_view:cardCornerRadius="1dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:id="@+id/list6">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/shoulders"
+
+                            />
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="120dp"
+                            android:text="SHOULDERS"
+                            android:gravity="center"
+                            android:textSize="20dp"
+                            android:textColor="#000"
+                            />
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="fill_parent"
+                    android:layout_height="120dp"
+                    android:id="@+id/card_view7"
+                    android:layout_below="@+id/card_view6"
+                    android:layout_marginTop="1dp"
+                    card_view:cardCornerRadius="1dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:id="@+id/list7">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/triceps"
+
+                            />
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="120dp"
+                            android:text="TRICEPS"
+                            android:gravity="center"
+                            android:textSize="20dp"
+                            android:textColor="#000"
+                            />
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="fill_parent"
+                    android:layout_height="120dp"
+                    android:id="@+id/card_view8"
+                    android:layout_below="@+id/card_view7"
+                    android:layout_marginTop="1dp"
+                    card_view:cardCornerRadius="1dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:id="@+id/list8">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/stretching"
+
+                            />
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="120dp"
+                            android:text="STRETCHING"
+                            android:gravity="center"
+                            android:textSize="20dp"
+                            android:textColor="#000"
+                            />
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+
+
+
+    </RelativeLayout>
