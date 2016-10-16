@@ -8,6 +8,267 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.ravikumarpatel.gym_guide_app.Workouts">
+    tools:context="com.example.ravikumarpatel.gym_guide_app.Workouts"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:background="#f44336"
+                android:text="BUILD MUSCLES"
+                android:textColor="#000"
+                />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="fill_parent"
+                android:layout_marginTop="70dp"
+                android:layout_height="240dp"
+                android:id="@+id/bm_card_view1"
+                card_view:cardCornerRadius="1dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:id="@+id/bm_list1">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/beginner_bm1"
+                        android:src="@drawable/begin"
+
+                        />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@+id/beginner_bm1"
+                        android:text="3 WEEKS BEGINNER SCHEDULE"
+                        android:gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        />
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="fill_parent"
+                android:layout_height="240dp"
+                android:id="@+id/bm_card_view2"
+                android:layout_below="@+id/bm_card_view1"
+                android:layout_marginTop="30dp"
+                card_view:cardCornerRadius="1dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:id="@+id/bm_list2">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/beginner_bm2"
+                        android:src="@drawable/building"
+
+                        />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="120dp"
+                        android:text="8 WEEKS MUSCLE BUILDING"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@+id/beginner_bm2"
+                        android:gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        />
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="fill_parent"
+                android:layout_height="250dp"
+                android:id="@+id/bm_card_view3"
+                android:layout_below="@+id/bm_card_view2"
+                android:layout_marginTop="30dp"
+                card_view:cardCornerRadius="1dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:id="@+id/bm_list3">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/beginner_bm3"
+                        android:src="@drawable/heavy_weight"
+
+                        />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginTop="10dp"
+                        android:text="15 WEEKS HEAVY WEIGHT WORKOUT"
+                        android:layout_below="@+id/beginner_bm3"
+                        android:gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        />
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="30dp"
+                android:layout_below="@+id/bm_card_view3"
+                android:id="@+id/loss_weight"
+                android:layout_marginTop="30dp"
+                android:background="#f44336"
+                android:gravity="center"
+                android:text="LOSE WEIGHT"
+                android:textColor="#000"
+                />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="fill_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="230dp"
+                android:layout_below="@+id/loss_weight"
+                android:id="@+id/lw_card_view1"
+                card_view:cardCornerRadius="1dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:id="@+id/lw_list1">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:id="@+id/lw_img_g1"
+                        android:src="@drawable/runing"
+
+                        />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="120dp"
+                        android:text="8 WEEKS TO FLAT BELLY"
+                        android:layout_below="@+id/lw_img_g1"
+                        android:gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        />
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="fill_parent"
+                android:layout_height="245dp"
+                android:id="@+id/lw_card_view2"
+                android:layout_below="@+id/lw_card_view1"
+                android:layout_marginTop="30dp"
+                card_view:cardCornerRadius="1dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="245dp"
+                    android:id="@+id/lw_list2">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:id="@+id/lw_img_g2"
+                        android:src="@drawable/swiming"
+
+                        />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="120dp"
+                        android:text="SWIMING IS THE BEST WEIGHT LOSE EXERCISES"
+                        android:layout_below="@+id/lw_img_g2"
+                        android:gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        />
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="fill_parent"
+                android:layout_height="230dp"
+                android:id="@+id/lw_card_view3"
+                android:layout_below="@+id/lw_card_view2"
+                android:layout_marginTop="30dp"
+                card_view:cardCornerRadius="1dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:id="@+id/lw_list3">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:id="@+id/lw_img_g3"
+                        android:src="@drawable/high_intensity_home_workout_banner_blog"
+
+                        />
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+
+
+
+
+    </ScrollView>
 
 </RelativeLayout>

@@ -19,7 +19,16 @@
             </intent-filter>
         </activity>
         <activity android:name=".Exercises" />
-        <activity android:name=".Workouts"></activity>
+        <activity android:name=".Workouts" />
+        <activity android:name=".detailsexercises" />
+        <activity android:name=".abdominal_lists" />
+        <activity android:name=".back" />
+        <activity android:name=".biceps" />
+        <activity android:name=".chest" />
+        <activity android:name=".legs" />
+        <activity android:name=".shoulders" />
+        <activity android:name=".triceps" />
+        <activity android:name=".stretching"></activity>
     </application>
 
 </manifest>
